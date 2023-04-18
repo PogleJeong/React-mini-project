@@ -27,7 +27,9 @@ const rotationAnimation = keyframes`
     }
 `;
 
+// Emoji에 대한 style
 const Emoji = styled.span`
+  color: black;
   font-size: 30px;
 `;
 
@@ -43,6 +45,7 @@ const Box = styled.div`
     animation: ${rotationAnimation} 1s linear infinite;
     
     ${Emoji} {
+      color: red;
       &:hover {
         font-size: 100px;
       }
