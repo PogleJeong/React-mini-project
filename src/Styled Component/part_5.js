@@ -15,7 +15,7 @@ const Wrapper = styled.div`
   width: 100vw;
   justify-content: center;
   align-items: center;
-  background-color: ${(props) => props.theme.backgroundColor}
+  background-color: ${(props) => props.theme.backgroundColor};
 `
 const Styled_App = () => {
     return (
